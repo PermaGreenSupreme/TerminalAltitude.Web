@@ -1,0 +1,37 @@
+import { ModuleWithProviders, NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
+
+import { MDBBootstrapModule } from 'ng-mdb-pro/free/index';
+import { MDBBootstrapModulePro } from 'ng-mdb-pro/pro/index';
+
+export {
+    MDBBootstrapModule
+} from './../../../../node_modules/ng-mdb-pro/free';
+
+export {
+    MDBBootstrapModulePro
+} from './../../../../node_modules/ng-mdb-pro/pro';
+
+const MODULES = [
+    MDBBootstrapModule,
+    MDBBootstrapModulePro
+];
+
+@NgModule({
+              imports: [
+                  MDBBootstrapModule.forRoot(),
+                  MDBBootstrapModulePro.forRoot(),
+              ],
+              exports: MODULES,
+              providers: [
+              ],
+              schemas: [ NO_ERRORS_SCHEMA ]
+          })
+export class MDBRootModules {
+}
+
+@NgModule({exports: MODULES})
+export class MDBBootstrapModules {
+    public static forRoot(): ModuleWithProviders {
+        return {ngModule: MDBRootModules};
+    }
+}

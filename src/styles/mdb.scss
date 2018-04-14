@@ -1,0 +1,121 @@
+/*!
+ * Material Design for Bootstrap 4
+ * Version: MDB PRO 4.4.3
+ *
+ *
+ * Copyright: Material Design for Bootstrap
+ * https://mdbootstrap.com/
+ *
+ * Read the license: https://mdbootstrap.com/license/
+ *
+ *
+ * Documentation: https://mdbootstrap.com/
+ *
+ * Getting started: https://mdbootstrap.com/getting-started/
+ *
+ * Tutorials: https://mdbootstrap.com/bootstrap-tutorial/
+ *
+ * Templates: https://mdbootstrap.com/templates/
+ *
+ * Support: https://mdbootstrap.com/support/
+ *
+ * Contact: office@mdbootstrap.com 
+ *
+ * Atribution: Animate CSS, Twitter Bootstrap, Materialize CSS, Normalize CSS, Waves JS, WOW JS, Toastr, Chart.js , Hammer.js
+ *
+ */
+
+@charset "UTF-8";
+
+// Bootstrap //
+
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/free/data/functions";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/free/data/variables-b4";
+
+// MDB Framework //
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/free/data/prefixer";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/free/data/mixins";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/free/data/colors";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/free/data/variables";
+
+$roboto-font-path: './../app/shared/modules/ng-mdb-pro/assets/font/roboto/';
+$image-path: './../app/shared/modules/ng-mdb-pro/assets/img/';
+
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/free/global";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/free/animations";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/free/helpers";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/free/typography";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/free/buttons";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/free/cards-basic";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/free/dropdowns";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/free/navbar";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/free/pagination";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/free/badge";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/free/breadcrumb";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/free/modals";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/free/progress";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/free/carousel-basic";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/free/collapse";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/free/jumbotron";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/free/masks";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/free/waves";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/free/forms-basic";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/free/msc";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/free/footer";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/free/list-group";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/free/tables";
+
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/variables-pro";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/free/deprecated";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/deprecated";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/buttons-pro";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/social-buttons";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/tabs";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/cards-pro";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/dropdowns-pro";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/navbars-pro";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/scrollspy";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/light-box";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/chips";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/msc";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/radio";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/checkbox";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/material-select";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/switch";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/file-input";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/range";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/input-group";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/autocomplete";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/parallax";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/side-nav";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/ecommerce";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/carousels-pro";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/stepper";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/blog";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/toasts";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/animations-pro";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/charts-pro";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/progress";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/scrollbar";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/skins";
+
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/date_picker/default";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/date_picker/default.time";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/date_picker/default.date";
+
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/sections";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/sections/templates";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/sections/features";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/sections/social";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/sections/blog";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/sections/team";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/sections/testimonials";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/sections/projects";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/sections/magazine";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/sections/pricing";
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/pro/sections/contacts";
+
+// Custom Sass
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/custom";
+
+@import "./../app/shared/modules/ng-mdb-pro/assets/scss/angular/mdb-angular";

@@ -1,0 +1,57 @@
+.btn {
+  font-size: .8rem;
+  padding: .85rem 2.13rem;
+  margin: 6px;
+  border-radius: 2px;
+  border: 0;
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out;
+  text-transform: uppercase;
+  white-space: normal!important;
+  word-wrap: break-word;
+  cursor: pointer;
+}
+
+.btn.aqua-gradient {
+  background: -webkit-linear-gradient(50deg,#2096ff,#05ffa3)!important;
+  background: linear-gradient(40deg,#2096ff,#05ffa3)!important;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+
+.btn.blue-gradient {
+  background: -webkit-linear-gradient(50deg,#45cafc,#303f9f)!important;
+  background: linear-gradient(40deg,#45cafc,#303f9f)!important;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+
+.btn.peach-gradient {
+  background: -webkit-linear-gradient(50deg,#ffd86f,#fc6262)!important;
+  background: linear-gradient(40deg,#ffd86f,#fc6262)!important;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+
+.btn.purple-gradient {
+  background: -webkit-linear-gradient(50deg,#ff6ec4,#7873f5)!important;
+  background: linear-gradient(40deg,#ff6ec4,#7873f5)!important;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+
+.btn-rounded {
+  border-radius: 10em;
+}
+
+.waves-effect {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  z-index: 1;
+}

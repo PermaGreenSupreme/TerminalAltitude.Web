@@ -1,0 +1,15 @@
+@import '../assets/fonts/font-awesome/webfont/css/fontawesome-all.min.css';
+
+@font-face {
+  font-family: 'Gtek-Technology';
+  src:  url('../assets/fonts/Gtek-Technology.ttf.woff') format('woff'),
+  url('../assets/fonts/Gtek-Technology.ttf.svg#Gtek-Technology') format('svg'),
+  url('../assets/fonts/Gtek-Technology.ttf.eot'),
+  url('../assets/fonts/Gtek-Technology.ttf.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.gtek {
+  font-family: 'Gtek-Technology', monospace, sans-serif;
+}

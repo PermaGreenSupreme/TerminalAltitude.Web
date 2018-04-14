@@ -1,0 +1,92 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "git+https://oauth2:xdGzTNUEPLzTS9bDw6ja@git.mdbootstrap.com/mdb/angular/ng-pro.git",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "git+https://oauth2:xdGzTNUEPLzTS9bDw6ja@git.mdbootstrap.com/mdb/angular/ng-pro.git",
+        "spec": "https://oauth2:xdGzTNUEPLzTS9bDw6ja@git.mdbootstrap.com/mdb/angular/ng-pro.git",
+        "type": "git"
+      },
+      "D:\\Code\\Personal\\Terminal Altitude\\TerminalAltitude.Web"
+    ]
+  ],
+  "_from": "git+https://oauth2:xdGzTNUEPLzTS9bDw6ja@git.mdbootstrap.com/mdb/angular/ng-pro.git",
+  "_id": "ng-mdb-pro@5.2.2",
+  "_inCache": true,
+  "_location": "/ng-mdb-pro",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "git+https://oauth2:xdGzTNUEPLzTS9bDw6ja@git.mdbootstrap.com/mdb/angular/ng-pro.git",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "git+https://oauth2:xdGzTNUEPLzTS9bDw6ja@git.mdbootstrap.com/mdb/angular/ng-pro.git",
+    "spec": "https://oauth2:xdGzTNUEPLzTS9bDw6ja@git.mdbootstrap.com/mdb/angular/ng-pro.git",
+    "type": "git"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://oauth2:xdGzTNUEPLzTS9bDw6ja@git.mdbootstrap.com/mdb/angular/ng-pro.git#f9a20a32df2737b0b49c8186caf101ee71506786",
+  "_shasum": "a3c628d8b1b8f298ec88bc882d3d80ba67e57108",
+  "_shrinkwrap": null,
+  "_spec": "git+https://oauth2:xdGzTNUEPLzTS9bDw6ja@git.mdbootstrap.com/mdb/angular/ng-pro.git",
+  "_where": "D:\\Code\\Personal\\Terminal Altitude\\TerminalAltitude.Web",
+  "dependencies": {},
+  "devDependencies": {
+    "@angular/cli": "1.5.0 - 1.7.1",
+    "@angular/compiler-cli": "5.0.0 - 5.2.6",
+    "@angular/language-service": "5.0.0 - 5.2.6",
+    "@types/jasmine": "~2.5.53",
+    "@types/jasminewd2": "~2.0.2",
+    "@types/node": "~6.0.60",
+    "codelyzer": "~3.0.1",
+    "jasmine-core": "~2.6.2",
+    "jasmine-spec-reporter": "~4.1.0",
+    "karma": "~1.7.0",
+    "karma-chrome-launcher": "~2.1.1",
+    "karma-cli": "~1.0.1",
+    "karma-coverage-istanbul-reporter": "^1.2.1",
+    "karma-jasmine": "~1.1.0",
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "protractor": "~5.1.2",
+    "ts-node": "~3.0.4",
+    "tslint": "~5.3.2",
+    "typescript": "^2.6.0",
+    "webpack": "^3.1.0"
+  },
+  "gitHead": "f9a20a32df2737b0b49c8186caf101ee71506786",
+  "license": "Custom License.pdf",
+  "name": "ng-mdb-pro",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "@angular/animations": "5.0.0 - 5.2.6",
+    "@angular/common": "5.0.0 - 5.2.6",
+    "@angular/compiler": "5.0.0 - 5.2.6",
+    "@angular/core": "5.0.0 - 5.2.6",
+    "@angular/forms": "5.0.0 - 5.2.6",
+    "@angular/http": "5.0.0 - 5.2.6",
+    "@angular/platform-browser": "5.0.0 - 5.2.6",
+    "@angular/platform-browser-dynamic": "5.0.0 - 5.2.6",
+    "@angular/router": "5.0.0 - 5.2.6",
+    "core-js": "^2.4.1",
+    "rxjs": "5.5.x",
+    "zone.js": "^0.8.14"
+  },
+  "private": true,
+  "readme": "ERROR: No README data found!",
+  "readmeFilename": "README.md",
+  "scripts": {
+    "build": "ng build",
+    "e2e": "ng e2e",
+    "lint": "ng lint",
+    "ng": "ng",
+    "start": "ng serve",
+    "test": "ng test"
+  },
+  "version": "5.2.2"
+}
