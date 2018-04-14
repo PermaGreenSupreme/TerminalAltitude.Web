@@ -8,7 +8,7 @@
   "author": "Aaron Jessen <aaronjessen@gmail.com>",
   "homepage": "https://github.com/PermaGreenSupreme/TerminalAltitude.Web",
   "license": "MIT",
-  "main": "server/server.js",
+  "main": "server.js",
   "scripts": {
     "build:aot:prod": "npm run clean:dist && npm run clean:aot && cross-env BUILD_AOT=1 npm run webpack -- --config config/webpack.prod.js  --progress --profile --bail",
     "build:aot": "npm run build:aot:prod",
@@ -57,7 +57,8 @@
     "server": "npm run server:dev",
     "start:prod:hmr": "cross-env ANGULAR_CONF_FILE=./config.prod.json npm run server:dev:hmr",
     "start:hmr": "npm run server:dev:hmr",
-    "start": "npm run server:dev && node server.js",
+    "start": "node server.js",
+    "start2": "npm run server:dev && node server.js",
     "start:aot": "npm run server:aot:dev",
     "test": "npm run lint && karma start",
     "test:sonar": "npm run lint && cross-env SONAR_QUBE=1 karma start",
