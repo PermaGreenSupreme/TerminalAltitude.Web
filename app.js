@@ -1,2 +1,2 @@
-var app = require('./server/server.js');
+let app = require('./server.js');
 app.start();

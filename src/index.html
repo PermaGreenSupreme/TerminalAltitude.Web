@@ -22,15 +22,15 @@
   <% } %>
 
   <!-- Async Google Tag Manager: change gtmKey value inside config.prod.conf to your to be your site's ID-->
-  <% if (htmlWebpackPlugin.options.gtmKey) { %>
-  <!-- Google Tag Manager -->
+  <!--<% if (htmlWebpackPlugin.options.gtmKey) { %>
+  &lt;!&ndash; Google Tag Manager &ndash;&gt;
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
       new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','<%= htmlWebpackPlugin.options.gtmKey %>');</script>
-  <!-- End Google Tag Manager -->
-  <% } %>
+  &lt;!&ndash; End Google Tag Manager &ndash;&gt;
+  <% } %>-->
   <!-- End Google Analytics -->
 
   <!-- CSS will be injected by webpack here -->
@@ -39,12 +39,6 @@
 </head>
 
 <body>
-<% if (htmlWebpackPlugin.options.gtmKey) { %>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=<%= htmlWebpackPlugin.options.gtmKey %>"
-                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-<% } %>
 
   <app>
     Loading...
@@ -52,11 +46,10 @@
 
   <!-- Scripts will be injected by webpack here -->
 
-<script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+<script src="//code.createjs.com/createjs-2015.11.26.min.js"></script>
 <script src="./assets/animations/space-station.js"></script>
 
-<script
-        src="//code.jquery.com/jquery-3.3.1.slim.min.js"
+<script src="//code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
         crossorigin="anonymous"></script>
 

@@ -38,7 +38,9 @@
 @import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/free/data/colors";
 @import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/free/data/variables";
 
-$roboto-font-path: './../app/shared/modules/ng-mdb-pro/assets/font/roboto/';
+//$roboto-font-path: './../app/shared/modules/ng-mdb-pro/assets/font/roboto/';
+//$roboto-font-path: './../assets/fonts/roboto/';
+$roboto-font-path: './../assets/fonts/';
 $image-path: './../app/shared/modules/ng-mdb-pro/assets/img/';
 
 @import "./../app/shared/modules/ng-mdb-pro/assets/scss/mdb/free/global";
